@@ -1,0 +1,107 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.6;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+
+}
+
+header {
+    background: teal;
+    color: black;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: #333;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+nav ul {
+        list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section h2 {
+    font-size: 50px;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+.center{
+    text-align: center;
+}
+
+footer {
+    background: teal;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+#qrcode{
+    max-width: 25%;
+    border-radius: 50%;
+}
+#qrcode:hover{
+    max-width: 100%;
+}
+
+.btn{
+    background-color: rgb(6, 102, 180);
+}
+.btn-primary{
+    border-color: rgb(6, 102, 180);;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  p{
+    font-size: 20px;
+    font-style: italic;
+  }
+  #eu{
+   max-width: 200px; 
+   border-radius: 20px;
+   display: block;
+   margin: auto;
+  }
+  a{
+    position: relative;
+  }
