@@ -17,20 +17,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    
-
 }
 
 header {
     background: teal;
     color: black;
-    padding: 20px 0;
+    padding: 10px 0;
     border-radius: 10px;
     box-shadow: #333;
+    
 }
 
 header h1 {
     font-size: 70px;
+    text-align: center;
 }
 
 nav ul {
@@ -43,6 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
+
     color: #fff;
     text-decoration: none;
 }
@@ -59,8 +60,14 @@ section h2 {
     margin-bottom: 40px;
 }
 
-.portfolio-item img {
-    max-width: 100%;
+#curriculo{
+    text-align: center;
+}
+
+#vivo{
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
 }
 .center{
     text-align: center;
@@ -68,7 +75,7 @@ section h2 {
 
 footer {
     background: teal;
-    color: black;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
 }
@@ -87,6 +94,10 @@ footer {
     border-color: rgb(6, 102, 180);;
 }
 
+.btn-secondary{
+    margin-right:  20px;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 800;
@@ -102,6 +113,8 @@ footer {
    display: block;
    margin: auto;
   }
-  a{
-    position: relative;
+
+  .navbar{
+    flex-direction: column;
   }
+  
